@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context = ".ui.SellProduceFragment">
+        <TextView
+            android:id="@+id/tv_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            android:layout_margin="20dp"
+            android:textStyle="bold" />
+        <include
+            android:id="@+id/item_seller_name"
+            layout="@layout/layout_form_item_text"
+            app:layout_constraintTop_toBottomOf="@id/tv_heading"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+        <include
+            android:id="@+id/item_loyalty_id"
+            layout="@layout/layout_form_item_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/item_seller_name"
+            />
+        <include
+            android:id="@+id/item_village_chooser"
+            layout="@layout/layout_form_item_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/item_loyalty_id"
+            />
+        <include
+            android:id="@+id/item_gross_wt"
+            layout="@layout/layout_form_item_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/item_village_chooser"
+            />
+        <LinearLayout
+            android:id="@+id/ll_gross_price"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/item_gross_wt"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:text="Gross Price"/>
+            <TextView
+                android:id="@+id/item_gross_price_amt"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_applied_loyalty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/ll_gross_price"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_margin="10dp"
+            android:textColor="@color/teal_700"
+            android:text = "Applied Loyalty Index : "
+            />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,101 @@
+{
+  "sellers": [
+    {
+      "name": "Ramu Kaka",
+      "loyalty_card_id": "S18972",
+      "registered": true,
+      "village": "Village1",
+      "selling_price_per_kg": 129.56
+    },
+    {
+      "name": "Rajesh Kumar",
+      "loyalty_card_id": "S23456",
+      "registered": true,
+      "village": "Village2",
+      "selling_price_per_kg": 261.87
+    },
+    {
+      "name": "Shyam Singh",
+      "loyalty_card_id": "S67890",
+      "registered": true,
+      "village": "Village1",
+      "selling_price_per_kg": 180.45
+    },
+    {
+      "name": "Kavita Gupta",
+      "loyalty_card_id": "S34567",
+      "registered": true,
+      "village": "Village3",
+      "selling_price_per_kg": 240.67
+    },
+    {
+      "name": "Rakesh Sharma",
+      "loyalty_card_id": "S87654",
+      "registered": true,
+      "village": "Village4",
+      "selling_price_per_kg": 102.34
+    },
+    {
+      "name": "Amit Patel",
+      "loyalty_card_id": "S98765",
+      "registered": true,
+      "village": "Village5",
+      "selling_price_per_kg": 200.76
+    },
+    {
+      "name": "Radha Krishnan",
+      "loyalty_card_id": "S76543",
+      "registered": true,
+      "village": "Village2",
+      "selling_price_per_kg": 154.56
+    },
+    {
+      "name": "Neha Gupta",
+      "loyalty_card_id": "S65432",
+      "registered": true,
+      "village": "Village3",
+      "selling_price_per_kg": 213.34
+    },
+    {
+      "name": "Unregistered Seller 1",
+      "loyalty_card_id": null,
+      "registered": false,
+      "village": "Village6",
+      "selling_price_per_kg": 223.87
+    },
+    {
+      "name": "Unregistered Seller 2",
+      "loyalty_card_id": null,
+      "registered": false,
+      "village": "Village1",
+      "selling_price_per_kg": 181.65
+    },
+    {
+      "name": "Unregistered Seller 3",
+      "loyalty_card_id": null,
+      "registered": false,
+      "village": "Village2",
+      "selling_price_per_kg": 110.67
+    },
+    {
+      "name": "Unregistered Seller 4",
+      "loyalty_card_id": null,
+      "registered": false,
+      "village": "Village4",
+      "selling_price_per_kg": 129.87
+    },
+    {
+      "name": "Unregistered Seller 5",
+      "loyalty_card_id": null,
+      "registered": false,
+      "village": "Village5",
+      "selling_price_per_kg": 182.56
+    },
+    {
+      "name": "Unregistered Seller 6",
+      "loyalty_card_id": null,
+      "registered": false,
+      "village": "
+    }
+  ]
+}
